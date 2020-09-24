@@ -6,7 +6,7 @@ import LogoError from "./Scarecrow.png";
 
 function App() {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <div className="p-4 md:p-8">
         <Header title="4040 NOT FOUND"/>
       </div>
@@ -24,6 +24,13 @@ function App() {
           </div>
         </div>
       </section>
+      <footer className="bg-400 p-10">
+        <div className="container mx-auto text-center">
+          <h4 className="my-4 text-base text-gray-700">
+            404-page@Cristian Hurtado
+          </h4>
+        </div>
+      </footer>
     </div>
   );
 }
