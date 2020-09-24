@@ -9,10 +9,15 @@ module.exports = {
       fontSize: {
         '2xl': '1.4rem',
       },
+      colors: {
+        orange: {
+          '50': '#ff6d5b',
+        }
+    },
     },
     letterSpacing: {
       widest: '0.3em',
-    }
+    },
   },
   variants: {},
   plugins: [],

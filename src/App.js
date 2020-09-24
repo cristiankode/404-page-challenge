@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import "./tailwind.output.css";
 import Header from "./components/Header";
@@ -21,7 +20,7 @@ function App() {
           </div>
           <div className="w-11/12 md:w-4/6 lg:w-3/5 xl:w-6/12 tracking-widest text-gray-700 text-sm md:text-base xl:text-2xl">The page you are looking for might be removed or is temporarily unavalaible</div>
           <div className="flex flex-shrink">
-            <button type="button" className="transition duration-500 ease-in-out bg-gray-800 transform hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 text-white font-bold py-2 px-4 text-xs h-16 w-56">BACK TO HOMEPAGE</button>
+            <button type="button" className="transition duration-500 ease-in-out bg-gray-800 transform hover:-translate-y-1 hover:scale-110 hover:bg-orange-50 text-white font-bold py-2 px-4 text-xs h-16 w-56">BACK TO HOMEPAGE</button>
           </div>
         </div>
       </section>
